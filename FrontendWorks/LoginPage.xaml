@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontendWorks.LoginPage"
+             Title="LoginPage">
+
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Path Stroke="#000" Data="m145.49999,224.07767l194.42208,0l60.07792,-157.37042l60.07795,157.37042l194.42205,0l-157.29048,97.25915l60.08103,157.37042l-157.29055,-97.2618l-157.29051,97.2618l60.08104,-157.37042l-157.29053,-97.25915z" Fill="#ffff00"/>
+        
+        <StackLayout>
+            <Frame BackgroundColor="SkyBlue" HeightRequest="60" WidthRequest="60" CornerRadius="30" Padding="0" Margin="0,100,0,0" HorizontalOptions="Center">
+                <Image Source="https://www.findool.com/images/avatars/avatar.png" Aspect="Fill" Margin="0"/>
+            </Frame>
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>

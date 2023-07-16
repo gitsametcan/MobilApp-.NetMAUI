@@ -90,6 +90,10 @@
               "version": "[7.0.86, )",
               "autoReferenced": true
             },
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -207,6 +211,10 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
+            },
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [
@@ -270,6 +278,10 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
+            },
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [
@@ -339,6 +351,10 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
+            },
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
