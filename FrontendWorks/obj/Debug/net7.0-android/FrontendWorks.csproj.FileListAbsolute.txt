@@ -960,6 +960,8 @@ C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\lp\155\jl\files.cache
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.Toolkit.Mvvm.dll
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.Toolkit.Mvvm.pdb
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Newtonsoft.Json.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\res\xml\network_security_config.xml
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
