@@ -4,11 +4,18 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FrontendWorks"
+    xmlns:views="clr-namespace:FrontendWorks.Views"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:LoginPage}"
         Route="MainPage" />
+
+    <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}"/>
+        <ShellContent Title="Contact" ContentTemplate="{DataTemplate views:ContactPage}"/>
+        <ShellContent Title="About" ContentTemplate="{DataTemplate views:AboutPage}"/>
+    </FlyoutItem>
 
 </Shell>

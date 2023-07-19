@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using FrontendWorks.ViewModel;
+using FrontendWorks.Views;
+using Microsoft.Extensions.Logging;
 
 namespace FrontendWorks;
 
@@ -14,6 +16,13 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+
+		builder.Services.AddSingleton<HomePage>();
+		builder.Services.AddSingleton<LoginPage>();
+        builder.Services.AddSingleton<ContactPage>();
+        builder.Services.AddSingleton<AboutPage>();
+
+        builder.Services.AddSingleton<LoginPageViewModel>();
 
 #if DEBUG
 		builder.Logging.AddDebug();
