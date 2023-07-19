@@ -1,4 +1,7 @@
-﻿using Microsoft.Toolkit.Mvvm.ComponentModel;
+﻿using FrontendWorks.Models;
+using FrontendWorks.Service;
+using FrontendWorks.Views;
+using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
@@ -16,10 +19,26 @@ namespace FrontendWorks.ViewModel
         [ObservableProperty]
         private string _password;
 
+        readonly ILoginRepo loginRep = new LoginServices();
+
         [ICommand]
         public async void Login()
         {
+            if (!string.IsNullOrWhiteSpace(UserName) && !string.IsNullOrWhiteSpace(Password))
+            {
+                UserInfo userInfo = await loginRep.Login(UserName, Password);
 
+                if (Preferences.ContainsKey(nameof(App.UserInfo)))
+                {
+                    Preferences.Remove(nameof(App.UserInfo));
+                }
+
+                string userDetails = JsonConvert.SerializeObject(userInfo);
+                Preferences.Set(nameof(App.UserInfo), userDetails);
+                App.UserInfo = userInfo;
+
+                await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+            }
         }
     }
 }
