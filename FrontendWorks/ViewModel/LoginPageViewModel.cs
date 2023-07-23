@@ -1,5 +1,6 @@
 ﻿using FrontendWorks.Models;
 using FrontendWorks.Service;
+using FrontendWorks.UserControl;
 using FrontendWorks.Views;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.Input;
@@ -37,6 +38,8 @@ namespace FrontendWorks.ViewModel
                 string userDetails = JsonConvert.SerializeObject(userInfo);
                 Preferences.Set(nameof(App.UserInfo), userDetails);
                 App.UserInfo = userInfo;
+
+                AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
 
                 await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
             }

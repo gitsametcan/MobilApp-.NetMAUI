@@ -5,17 +5,25 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FrontendWorks"
     xmlns:views="clr-namespace:FrontendWorks.Views"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.TabBarIsVisible="False">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:LoginPage}"
-        Route="MainPage" />
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        Route="LoginPage" />
 
     <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}"/>
         <ShellContent Title="Contact" ContentTemplate="{DataTemplate views:ContactPage}"/>
         <ShellContent Title="About" ContentTemplate="{DataTemplate views:AboutPage}"/>
     </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Sign Out" Command="{Binding SignOutCommand}" BackgroundColor="Green"/>
+        </StackLayout>
+    </Shell.FlyoutFooter>
 
 </Shell>

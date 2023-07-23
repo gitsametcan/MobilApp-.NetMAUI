@@ -21,9 +21,9 @@ namespace FrontendWorks.Service
                     var userInfo = new UserInfo();
                     var client = new HttpClient();
 
-                    string BaseAddress = DeviceInfo.Platform == DevicePlatform.Android ? "https://3ch9ls5d-5267.euw.devtunnels.ms" : "https://localhost:7083";
-                    //string BaseAddress = "https://3ch9ls5d-5267.euw.devtunnels.ms";
-                    string url = $"{BaseAddress}/api/First/Login/" + username + "/" + password;
+                    //string BaseAddress = DeviceInfo.Platform == DevicePlatform.Android ? "https://3ch9ls5d-5267.euw.devtunnels.ms" : "https://localhost:7083";
+                    string BaseAddress = "https://9nnmq2mh-7083.euw.devtunnels.ms";
+                    string url = $"{BaseAddress}/api/User/Login/" + username + "/" + password;
                     client.BaseAddress = new Uri(url);
                     //var ba = await client.GetAsync("");
                     HttpResponseMessage response = await client.GetAsync("");

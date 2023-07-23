@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-22T20:12:01.850</Modified>
+      <Modified>2023-07-23T08:10:35.398</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-22T20:12:01.368</Modified>
+      <Modified>2023-07-23T08:10:34.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\FrontendWorks.runtimeconfig.json">
       <PackagePath>FrontendWorks.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\FrontendWorks.dll">
       <PackagePath>FrontendWorks.dll</PackagePath>
-      <Modified>2023-07-22T20:11:59.336</Modified>
+      <Modified>2023-07-23T08:10:32.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FrontendWorks.exe</PackagePath>
-      <Modified>2023-07-22T20:11:59.369</Modified>
+      <Modified>2023-07-23T08:10:32.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\can_s\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -928,7 +928,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\FrontendWorks.deps.json">
       <PackagePath>FrontendWorks.deps.json</PackagePath>
-      <Modified>2023-07-22T20:12:01.658</Modified>
+      <Modified>2023-07-23T08:10:35.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
