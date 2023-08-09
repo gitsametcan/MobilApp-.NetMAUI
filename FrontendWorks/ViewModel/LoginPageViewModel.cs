@@ -30,18 +30,24 @@ namespace FrontendWorks.ViewModel
             {
                 UserInfo userInfo = await loginRep.Login(UserName, Password);
 
-                if (Preferences.ContainsKey(nameof(App.UserInfo)))
-                {
-                    Preferences.Remove(nameof(App.UserInfo));
-                }
+                
+                
 
-                string userDetails = JsonConvert.SerializeObject(userInfo);
-                Preferences.Set(nameof(App.UserInfo), userDetails);
-                App.UserInfo = userInfo;
+                    if (Preferences.ContainsKey(nameof(App.UserInfo)))
+                    {
+                        Preferences.Remove(nameof(App.UserInfo));
+                    }
 
-                AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
+                    string userDetails = JsonConvert.SerializeObject(userInfo);
+                    Preferences.Set(nameof(App.UserInfo), userDetails);
+                    App.UserInfo = userInfo;
 
-                await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+                    AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
+
+
+                    await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+                
+                
             }
         }
     }
