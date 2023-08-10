@@ -9,6 +9,6 @@ namespace FrontendWorks.Service
 {
     public interface ILoginRepo
     {
-        Task<UserInfo> Login(string username, string password);
+        public Task<LoginResponse> Authenticate(LoginRequest lr);
     }
 }

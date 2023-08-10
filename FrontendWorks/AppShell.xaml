@@ -8,6 +8,12 @@
     Shell.TabBarIsVisible="False">
 
     <ShellContent
+        ContentTemplate="{DataTemplate views:LoadingPage}"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        Route="LoadingPage" />
+    
+    <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:LoginPage}"
         FlyoutItemIsVisible="False"
@@ -15,7 +21,7 @@
         Route="LoginPage" />
 
     <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}"/>
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}" Route="HomePage"/>
         <ShellContent Title="Contact" ContentTemplate="{DataTemplate views:ContactPage}"/>
         <ShellContent Title="About" ContentTemplate="{DataTemplate views:AboutPage}"/>
     </FlyoutItem>

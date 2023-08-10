@@ -63,3 +63,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FrontendWorks.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/can_s/Desktop/Ada-Staj/MobilApp-.NetMAUI/FrontendWorks/Views/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontendWorks.Views.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoadingPage.xaml

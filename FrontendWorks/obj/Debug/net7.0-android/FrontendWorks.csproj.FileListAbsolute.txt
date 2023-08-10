@@ -975,3 +975,9 @@ C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.IdentityModel.Logging.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\Microsoft.IdentityModel.Tokens.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-android\android\assets\System.IdentityModel.Tokens.Jwt.dll

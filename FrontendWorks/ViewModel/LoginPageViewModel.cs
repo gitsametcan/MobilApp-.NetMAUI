@@ -21,34 +21,65 @@ namespace FrontendWorks.ViewModel
         [ObservableProperty]
         private string _password;
 
-        readonly ILoginRepo loginRep = new LoginServices();
+        private readonly ILoginRepo _loginRep;
 
+        public LoginPageViewModel(ILoginRepo loginServices)
+        {
+            _loginRep = loginServices;
+        }
+
+
+        #region Commands
         [ICommand]
         public async void Login()
         {
             if (!string.IsNullOrWhiteSpace(UserName) && !string.IsNullOrWhiteSpace(Password))
             {
-                UserInfo userInfo = await loginRep.Login(UserName, Password);
+                //UserInfo userInfo = await _loginRep.Authenticate(UserName, Password);
 
                 
                 
+                var response = await _loginRep.Authenticate(new LoginRequest
+                {
+                    userName = UserName,
+                    password = Password
+                });
+
+                if (response != null)
+                {
+                    UserInfo userInfo = response.user;
 
                     if (Preferences.ContainsKey(nameof(App.UserInfo)))
                     {
                         Preferences.Remove(nameof(App.UserInfo));
                     }
 
+                    await SecureStorage.SetAsync(nameof(App.Token), response.token);
+
                     string userDetails = JsonConvert.SerializeObject(userInfo);
                     Preferences.Set(nameof(App.UserInfo), userDetails);
                     App.UserInfo = userInfo;
 
+                    
+
                     AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
 
 
+                    //await AppShell.Current.DisplayAlert("Valid", "User", "OK");
                     await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+                }
+                else
+                {
+                    await AppShell.Current.DisplayAlert("Invalid", "Username or Password", "OK");
+                }
+
                 
+                
+
+                    
                 
             }
         }
+        #endregion
     }
 }
