@@ -1,6 +1,7 @@
 ﻿using FrontendWorks.Service;
 using FrontendWorks.ViewModel;
 using FrontendWorks.Views;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 namespace FrontendWorks;
@@ -19,7 +20,9 @@ public static class MauiProgram
 			});
 
         builder.Services.AddScoped<ILoginRepo, LoginServices>();
-		builder.Services.AddSingleton<LoginServices> ();
+        builder.Services.AddScoped<IPolicyRepo, PolicyService>();
+        builder.Services.AddSingleton<LoginServices> ();
+		builder.Services.AddSingleton<PolicyService> ();
         
 
 
