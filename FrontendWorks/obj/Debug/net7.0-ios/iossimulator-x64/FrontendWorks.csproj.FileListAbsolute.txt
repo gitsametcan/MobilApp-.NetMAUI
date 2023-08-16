@@ -219,7 +219,6 @@ C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs
@@ -270,3 +269,11 @@ C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\FrontendWorks.pdb
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\FrontendWorks.genruntimeconfig.cache
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\ref\FrontendWorks.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-ios\iossimulator-x64\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\ucak.png
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

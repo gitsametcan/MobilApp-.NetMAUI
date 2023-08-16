@@ -22,7 +22,7 @@ namespace FrontendWorks.Service
             {
                 string lrStr = JsonConvert.SerializeObject(lr);
 
-                var response = await client.PostAsync("https://vhp8b29z-7083.euw.devtunnels.ms/api/Account/authenticate", 
+                var response = await client.PostAsync("https://30v5x6lm-7083.euw.devtunnels.ms/api/Account/authenticate", 
                     new StringContent(lrStr,Encoding.UTF8,
                     "application/json"));
 

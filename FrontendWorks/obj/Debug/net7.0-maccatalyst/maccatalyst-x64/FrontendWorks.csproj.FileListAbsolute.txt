@@ -259,3 +259,10 @@ C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FrontendWorks.pdb
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FrontendWorks.genruntimeconfig.cache
 C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\FrontendWorks.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\can_s\Desktop\Ada-Staj\MobilApp-.NetMAUI\FrontendWorks\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\ucak.png

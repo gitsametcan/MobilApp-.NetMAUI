@@ -2,13 +2,71 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FrontendWorks.Views.HomePage"
+             xmlns:viewmodel="clr-namespace:FrontendWorks.ViewModel"
+             x:DataType="viewmodel:HomePageViewModel"
              Title="HomePage">
-    <VerticalStackLayout>
-        <Label 
+
+    <!--<StackLayout>
+        <ListView ItemsSource="{Binding Dask}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Dask[0].Il}" Detail="{Binding Dask[0].Ilce}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>-->
+
+    <Grid RowDefinitions="140, Auto, *"
+          ColumnDefinitions=".80*,20*"
+          Padding="12">
+        <Image Grid.ColumnSpan="2"
+               Source="ucak.png"
+               BackgroundColor="Yellow">
+            
+        </Image>
+        <Entry Placeholder="{Binding Dask[0].Il}" PlaceholderColor="Red" Grid.Row="1">
+            
+        </Entry>
+
+        <Button Text="Add New Policy" Grid.Row="1" Grid.Column="1"></Button>
+
+        <CollectionView Grid.Row="3" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Dask}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="0, 4">
+                        <Frame>
+                            <Label Text="asd" FontSize="Medium"></Label>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+
+        <ListView ItemsSource="{Binding Dask}" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="ASAS" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="asd" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+        <VerticalStackLayout Grid.ColumnSpan="2">
+            <Label 
             Text="{Binding Title}"
-            VerticalOptions="Center" 
+            VerticalOptions="Center"
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+
+    </Grid>
     
     
 </ContentPage>

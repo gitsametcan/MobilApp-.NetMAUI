@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VClg3JgudAj1nNtoNwwXowDvSqHM0oucUOIS7RHHAsjQu0/6UKPzuiO0cj02IZLUTnpQNrOl7ecH+2lTzI5TuQ==",
+  "dgSpecHash": "2/ThrzufBqwQ9pjxVoVSGCPd8veFlDu9sE490vB6pyNkPeIWfYKeUGwEdq7fB6GR7gpXev59dk7c6M68RJenlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\can_s\\Desktop\\Ada-Staj\\MobilApp-.NetMAUI\\FrontendWorks\\FrontendWorks.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\can_s\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\can_s\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\can_s\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\can_s\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

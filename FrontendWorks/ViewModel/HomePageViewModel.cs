@@ -1,6 +1,8 @@
-﻿using FrontendWorks.Models;
+﻿using CommunityToolkit.Mvvm.Input;
+using FrontendWorks.Models;
 using FrontendWorks.Service;
 using FrontendWorks.Views;
+using Microsoft.Toolkit.Mvvm.ComponentModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,9 +13,8 @@ using System.Threading.Tasks;
 
 namespace FrontendWorks.ViewModel
 {
-    public class HomePageViewModel : BaseViewModel
+    public partial class HomePageViewModel : BaseViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
 
         private ObservableCollection<DaskPolicy> _dask;
 
@@ -27,25 +28,23 @@ namespace FrontendWorks.ViewModel
                 OnPropertyChanged(nameof(Dask));
             }
         }
+
         public HomePageViewModel(IPolicyRepo policyServices) { 
             _policyRepo = policyServices;
             LoadDaskList(_policyRepo);
-            Title = "asdas";
-
-
+            Title = "My Dask Policies";
+            
 
         }
 
-        private async void LoadDaskList(IPolicyRepo policyServices)
+        
+        async Task LoadDaskList(IPolicyRepo policyServices)
         {
             List<DaskPolicy> daskPolicies = await policyServices.GetDaskPolicyById(1, " ");
             Dask =  new ObservableCollection<DaskPolicy>(daskPolicies);
             
         }
 
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        
     }
 }

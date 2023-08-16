@@ -17,7 +17,7 @@ namespace FrontendWorks.Service
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
                 id = 1;
-                var response = await client.GetAsync("https://vhp8b29z-7083.euw.devtunnels.ms/api/Dask");
+                var response = await client.GetAsync("https://30v5x6lm-7083.euw.devtunnels.ms/api/Dask");
 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
@@ -36,7 +36,7 @@ namespace FrontendWorks.Service
             using (var client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-                var response = await client.GetAsync("https://kpgr67j6-7083.euw.devtunnels.ms/api/Account/authenticate/" + id.ToString());
+                var response = await client.GetAsync("https://30v5x6lm-7083.euw.devtunnels.ms/api/Account/authenticate/" + id.ToString());
 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
