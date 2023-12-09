@@ -58,25 +58,15 @@ namespace FrontendWorks.ViewModel
 
                     string userDetails = JsonConvert.SerializeObject(userInfo);
                     Preferences.Set(nameof(App.UserInfo), userDetails);
-                    App.UserInfo = userInfo;
-
-                    
+                    App.UserInfo = userInfo;        
 
                     AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
-
-
-                    //await AppShell.Current.DisplayAlert("Valid", "User", "OK");
                     await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
                 }
                 else
                 {
                     await AppShell.Current.DisplayAlert("Invalid", "Username or Password", "OK");
                 }
-
-                
-                
-
-                    
                 
             }
         }
